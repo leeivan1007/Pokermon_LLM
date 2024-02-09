@@ -10,7 +10,7 @@ IF you want to get any info from simlator, you can check this [page](https://dat
 ## Install packages and run the ode
 
 ```
-pip install pyboy, pyimgur, openai
+pip install pyboy pyimgur openai
 ```
 
 Place the openai, imgur keys at prompt.py
@@ -21,6 +21,6 @@ Modify the target at prompt.py if you want try other kind of tasks.
 python main.py
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E_sq-LOqqDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/E_sq-LOqqDo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
