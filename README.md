@@ -32,8 +32,7 @@ Run the main.py code
 python main.py
 ```
 
-https://github.com/leeivan1007/Pokermon_LLM/assets/14324351/9d6c41b6-979c-4181-b5e7-1f7f16dca5df
-
+https://github.com/leeivan1007/Pokermon_LLM/assets/14324351/4321cf46-6b58-402e-ac71-dde4e2f13af5
 
 # Fetures
 
