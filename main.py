@@ -4,7 +4,8 @@ from pyboy.utils import WindowEvent
 import pyimgur
 import copy
 from openai import OpenAI
-from prompt import *
+from prompt import trick_prompt, target, plan_prompt
+from keys import api_key, imgur_client_id
 import re
 
 client = OpenAI(api_key=api_key)

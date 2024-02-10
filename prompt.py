@@ -1,7 +1,4 @@
 
-api_key  = <Enter your openai key>
-imgur_client_id = <Enter your imgur client id>
-
 
 trick_prompt = """\
 根據這張圖表的資訊，你應該使出哪一個招式？\
