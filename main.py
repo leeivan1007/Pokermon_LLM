@@ -9,7 +9,7 @@ from keys import api_key, imgur_client_id
 import re
 
 client = OpenAI(api_key=api_key)
-pyboy = PyBoy('Pokemon Red.gb', game_wrapper=True)
+pyboy = PyBoy('asset/Pokemon Red.gb', game_wrapper=True)
 pyboy.set_emulation_speed(4.0)
 
 def read_hp( start):
@@ -78,7 +78,7 @@ class GameBoy():
         self.practice_area = [(0,1), (0,1), (0,1), (0,1), (0,1), (3,1),
                              (1,1), (1,1), (1,1), (1,1), (1,1), (2,1)]
         self.current_pos = ()
-        self.battle_screen_path = 'battle.png'
+        self.battle_screen_path = 'asset/battle.png'
         self.current_index = 1
     def down(self):
         self.pyboy.send_input(WindowEvent.PRESS_ARROW_DOWN)
